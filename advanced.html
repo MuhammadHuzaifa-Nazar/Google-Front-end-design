@@ -1,0 +1,71 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Advanced search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <ul>
+            <li><a href="index.html">Google search</a></li>
+            <li><a href="images.html">Image search</a></li>
+        </ul>
+    </div>
+    <div id="image_advanced">
+        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo">
+    </div>
+
+    <div>
+        <h1>Advanced search</h1>
+    </div>
+
+    <hr>
+    <form action="https://www.google.com/search" method="get">
+        <div id="Grid">
+            <div style="margin-bottom: 20px;">Find pages with...</div>
+            <div></div>
+            <div style="font-size: 16px; font-weight: bold; color: gray;">To do this in the search box</div>
+            <div>
+                <label>all these words:</label>
+            </div>
+            <div>
+                <input type="text" name="as_q">
+            </div>
+            <div>
+                <label>Type the important words: <span>tri-colour rat terrier</span></label>
+            </div>
+            <div>
+                <label>this exact word or phrase:</label>
+            </div>
+            <div>
+                <input type="text" name="as_epq">
+            </div>
+            <div>
+                <label>Put exact words in quotes: <span>"rat terrier"</span></label>
+            </div>
+            <div>
+                <label>any of these words:</label>
+            </div>
+            <div>
+                <input type="text" name="as_oq" id="">
+            </div>
+            <div>
+                <label> Type OR between all the words you want <span>miniature OR standards</span> </label>
+            </div>
+            <div>
+                <label>none of these words:</label>
+            </div>
+            <div>
+                <input type="text" name="as_eq">
+            </div>
+            <div>
+                <label>Put two full stops between the numbers and add a unit of measurement <span>10..35 kg, £300..£500, 2010..2011</span> </label>
+            </div>
+            <div> </div>
+            <div id="submit"><input type="submit" value="Advanced Search"></div>
+        </div>
+    </form>
+    
+</body>
+</html>
